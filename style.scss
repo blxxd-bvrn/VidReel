@@ -80,16 +80,24 @@ i {
 
 .mainbody {
     height: calc(100vh - 70px);
+    display: flex;
+    overflow: hidden;
 }
 
 .categories {
     width: 300px;
-    background-color: rgb(247, 247, 247);
-    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(253, 253, 253);
+    border: 1px solid rgb(231, 231, 231);
     height: 100%;
     .categoriesSection {
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        .header {
+            font-size: 15px;
+            padding-left: 13px;
+            margin-top: 10px;
+        }
     }
     .category {
         width: 100%;
@@ -101,6 +109,22 @@ i {
         .space {
             margin-left: 15px;
         }
-        font-size: 14px;
+        font-size: 13px;
+    }
+}
+
+.HTSsection {
+    width: 100%;
+    height: 44px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(231, 231, 231);
+    font-size: 13px;
+    text-align: center;
+    ul {
+        list-style: none;
+        li {
+            display: inline-flex;
+            margin-left: 60px;
+        }
     }
 }
