@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.navBar {
+    .logo {
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+        img {
+            margin-left: 15px;
+            width: 100px;
+        }
+    }
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(194, 194, 194);
+
+    .user {
+        width: 170px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    i {
+        padding: 0 7.5px;
+    }
+}
+
+
+.search {
+    margin-bottom: -16px;
+    overflow: hidden;
+
+    form {
+        border: 1px solid rgb(184, 184, 184);
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    input, button {
+        border-radius: 0;
+        border: none;
+        height: 100%;
+        margin: 0;
+    }
+
+    input {
+        padding: 10px;
+        width: 510px;
+    }
+
+    input:focus {
+        border: 1px solid rgb(0, 72, 206);
+        border: none;
+    }
+
+    button {
+        width: 70px;
+    }
+}
+
+.mainbody {
+    height: calc(100vh - 70px);
+}
+
+.categories {
+    width: 300px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(221, 221, 221);
+    height: 100%;
+    .categoriesSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .category {
+        width: 100%;
+        display: flex;
+        padding: 12.5px 15px;
+        i {
+            margin-left: 25px;
+        }
+        .space {
+            margin-left: 15px;
+        }
+        font-size: 14px;
+    }
+}

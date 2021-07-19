@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+i {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.navBar {
+  padding: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f7f7f7;
+  border: 1px solid #c2c2c2;
+}
+
+.navBar .logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 10px;
+}
+
+.navBar .logo img {
+  margin-left: 15px;
+  width: 100px;
+}
+
+.navBar .user {
+  width: 170px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navBar i {
+  padding: 0 7.5px;
+}
+
+.search {
+  margin-bottom: -16px;
+  overflow: hidden;
+}
+
+.search form {
+  border: 1px solid #b8b8b8;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.search input, .search button {
+  border-radius: 0;
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+
+.search input {
+  padding: 10px;
+  width: 510px;
+}
+
+.search input:focus {
+  border: 1px solid #0048ce;
+  border: none;
+}
+
+.search button {
+  width: 70px;
+}
+
+.mainbody {
+  height: calc(100vh - 70px);
+}
+
+.categories {
+  width: 300px;
+  background-color: #f7f7f7;
+  border: 1px solid #dddddd;
+  height: 100%;
+}
+
+.categories .categoriesSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.categories .category {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12.5px 15px;
+  font-size: 14px;
+}
+
+.categories .category i {
+  margin-left: 25px;
+}
+
+.categories .category .space {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=style.css.map */
