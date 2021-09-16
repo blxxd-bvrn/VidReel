@@ -189,6 +189,11 @@ i {
   padding: 5px;
 }
 
+.HTSsection .VideoList .VideoListBox .video_title p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .HTSsection .VideoList .footer {
   background-color: white;
   text-align: left;
@@ -197,5 +202,24 @@ i {
           align-items: center;
   padding: 12px;
   border: 1px solid #d4d4d4;
+}
+
+.HTSsection .VideoList .sub_button_container {
+  padding: 10px;
+}
+
+.HTSsection .VideoList .subscribe_button {
+  color: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3b0094), to(#8800e8));
+  background: linear-gradient(0deg, #3b0094 0%, #8800e8 100%);
+  padding: 5px;
+  border: 1px solid #5e1b9c;
+  border-radius: 5px;
+  width: 105px;
+}
+
+.HTSsection .VideoList .subscribe_button:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#6301b3), to(#b024e7));
+  background: linear-gradient(0deg, #6301b3 0%, #b024e7 100%);
 }
 /*# sourceMappingURL=style.css.map */

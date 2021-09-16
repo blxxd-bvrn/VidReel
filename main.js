@@ -1,0 +1,1 @@
+// Wrote this code while my left leg hurty (not really, it's just when I was in Sapanca lmao)
